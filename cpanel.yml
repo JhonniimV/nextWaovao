@@ -2,5 +2,4 @@
 deployment:
   task:
     - export DEPLOYPATH=/home/user/dev.waovao.com/
-    - /bin/cp/
-    -
+    - /bin/rsync -av / $DEPLOYPATH

@@ -1,0 +1,6 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/user/dev.waovao.com/
+    - /bin/cp/
+    -

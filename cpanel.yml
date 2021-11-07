@@ -2,4 +2,4 @@
 deployment:
   task:
     - export DEPLOYPATH=/home/waovao/dev.waovao.com/
-    - /bin/cp -R / $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
